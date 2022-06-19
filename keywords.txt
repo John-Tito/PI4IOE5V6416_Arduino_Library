@@ -1,22 +1,35 @@
 #########################################
-# Syntax Coloring Map For PI4IOE5V96248
+# Syntax Coloring Map For PI4IOE5V6416
 #########################################
 
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
 
-PI4IOE5V96248	KEYWORD1
+PI4IOE5V6416	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-begin		KEYWORD2
-writePin	KEYWORD2
-writePort	KEYWORD2
-writeAll	KEYWORD2
-readPin		KEYWORD2
-readPort	KEYWORD2
-readAll		KEYWORD2
-returnValue	KEYWORD2
+begin                       KEYWORD2
+getPortInputValue           KEYWORD2
+getPortOutputValue          KEYWORD2
+setPortOutputValue          KEYWORD2
+getPortInvert               KEYWORD2
+setPortInvert               KEYWORD2
+getPortDirection            KEYWORD2
+setPortDirection            KEYWORD2
+getPortOutputDriveStrength  KEYWORD2
+setPortOutputDriveStrength  KEYWORD2
+getPortInputLatch           KEYWORD2
+setPortInputLatch           KEYWORD2
+getPortPullUpDownEn         KEYWORD2
+setPortPullUpDownEn         KEYWORD2
+getPortPullUpDownSel        KEYWORD2
+setPortPullUpDownSel        KEYWORD2
+getInterruptMask            KEYWORD2
+setInterruptMask            KEYWORD2
+getInterruptStatus          KEYWORD2
+getOutputPortConfiguration  KEYWORD2
+setOutputPortConfiguration  KEYWORD2
